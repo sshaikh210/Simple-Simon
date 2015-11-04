@@ -1,0 +1,67 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="x-ua-compatible" content="ie-edge"/>
+  <meta bane='viewport' content="width=device-width, initial-scale=1" />
+  <title>Simple Simon</title>
+  <h1 class='head'>Welcome to Simple Simon</h1>
+  <link rel="stylesheet" href="css/simon_sample.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="back">
+      <div class="pad shape1">
+      </div>
+
+      <div class="pad shape2">
+      </div>
+
+      <div class="pad shape3">
+      </div>
+
+      <div class="pad shape4">
+      </div>
+
+      <div class="circle"></div>
+    </div>
+  <div class="level">
+      <h2>Level: 1</h2>
+  </div>
+
+  <div class="score">
+      <h2>Score: 0</h2>
+  </div>
+    
+    <ul class="difficulty">
+
+      <li>
+        <input type="radio" class="difOpt" name="difficulty" value="2">Easy
+      </li>
+
+      <li>
+        <input type="radio" class="difOpt" name="difficulty" value="1" checked>Normal
+      </li>
+
+      <li>
+        <input type="radio" class="difOpt" name="difficulty" value="0.5">Hard
+      </li>
+
+      <li>
+        <input type="radio" class="difOpt" name="difficulty" value="0.25">Insane
+      </li>
+    </ul>
+
+    <div class="sButton">
+      <button class="start">start</button>
+    </div>
+
+  </div>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/simon_sample.js"></script>
+
+</body>
+</html>
